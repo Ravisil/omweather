@@ -1,0 +1,12 @@
+name: "Omweather"
+branding:
+  icon: "package"
+  color: "red"
+description: "Build & Publish Release APK on Github and www.pgyer.com"
+author: "ShoMeThe"
+inputs:
+  GITHUB_TOKEN:
+    description: "Easy way to allow automated publishing APK on www.pgyer.com and release"
+runs:
+  using: "docker"
+  image: "Dockerfile"
